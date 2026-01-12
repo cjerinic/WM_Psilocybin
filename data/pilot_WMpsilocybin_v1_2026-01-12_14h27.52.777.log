@@ -1,9 +1,0 @@
-11.5415 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
-11.5432 	INFO 	Loaded monitor calibration from ['2026_01_12 14:19']
-11.8793 	WARNING 	Trying to use a framebuffer object but GL_EXT_framebuffer_object is not supported. Disabled
-11.8794 	WARNING 	Trying to use a framebuffer object but GL_ARB_texture_float is not supported. Disabling
-13.2223 	INFO 	Using renderer 'GDI Generic' for graphics
-13.2224 	INFO 	OpenGL version supported by driver is 1..
-13.2244 	DEBUG 	Saving data for WMpsilocybin_v1 ExperimentHandler
-13.2251 	INFO 	saved data to D:\cnj678\WM_Psilocybin\data\pilot_WMpsilocybin_v1_2026-01-12_14h27.52.777.psydat
-13.2257 	INFO 	saved data to 'D:\\cnj678\\WM_Psilocybin\\data\\pilot_WMpsilocybin_v1_2026-01-12_14h27.52.777.csv'

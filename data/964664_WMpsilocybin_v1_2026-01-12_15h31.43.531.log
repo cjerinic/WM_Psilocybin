@@ -1,0 +1,259 @@
+15.4116 	INFO 	Loaded monitor calibration from ['2020_06_22 15:24']
+15.4202 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [2560, 1440]. Using actual size
+15.5368 	INFO 	Using renderer 'Apple M1 Max' for graphics
+15.5368 	INFO 	OpenGL version supported by driver is 2..
+15.5516 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x16eb307f0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x16eb30790>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x16e6a4160>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2560, 1440]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.5517 	EXP 	window1: backgroundImage = ''
+15.5517 	EXP 	window1: backgroundFit = 'none'
+15.9119 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+15.9119 	EXP 	window1: recordFrameIntervals = False
+16.0293 	EXP 	window1: recordFrameIntervals = True
+16.8646 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.5308 	INFO 	keyboard.Keyboard is using ptb backend.
+17.5309 	EXP 	WMpsilocybin_v1: status = STARTED
+17.5345 	EXP 	Created ITI_fix = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='ITI_fix', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...))
+17.5355 	EXP 	Created mem_fix = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='mem_fix', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...))
+17.5398 	EXP 	Created memCircle = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([0.00392157, 0.00392157, 0.00392157]), lineColorSpace='rgb', lineRGB=array([0.00392157, 0.00392157, 0.00392157]), lineWidth=1.0, name='memCircle', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.45, 0.45]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.5420 	EXP 	Created test_circle = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='test_circle', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.45, 0.45]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.5442 	EXP 	Created dot0 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='dot0', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.5464 	EXP 	Created dot1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='dot1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.5486 	EXP 	Created dot2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='dot2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.5507 	EXP 	Created dot3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='dot3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.5530 	EXP 	Created dot4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='dot4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.5538 	EXP 	Created delay_fix = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='delay_fix', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...))
+17.5545 	EXP 	Created report_fix = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='report_fix', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...))
+17.5566 	EXP 	Created report_circle = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='report_circle', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.45, 0.45]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+0.0032 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0077 	EXP 	ITI_fix: autoDraw = True
+1.0080 	INFO 	Keyboard events cleared
+1.0079 	EXP 	ITI_fix: autoDraw = False
+1.0079 	EXP 	ITI_fix: autoDraw = False
+1.0079 	EXP 	dot0: fillColor = 'red'
+1.0079 	EXP 	dot0: borderColor = 'red'
+1.0079 	EXP 	dot1: fillColor = 'green'
+1.0079 	EXP 	dot1: borderColor = 'green'
+1.0079 	EXP 	dot2: fillColor = 'blue'
+1.0079 	EXP 	dot2: borderColor = 'blue'
+1.0079 	EXP 	dot3: fillColor = 'yellow'
+1.0079 	EXP 	dot3: borderColor = 'yellow'
+1.0079 	EXP 	dot4: fillColor = 'magenta'
+1.0079 	EXP 	dot4: borderColor = 'magenta'
+1.0079 	EXP 	mem_fix: autoDraw = True
+1.0079 	EXP 	memCircle: autoDraw = True
+1.0079 	EXP 	test_circle: autoDraw = True
+1.0079 	EXP 	dot0: autoDraw = True
+1.0079 	EXP 	dot1: autoDraw = True
+1.0079 	EXP 	dot2: autoDraw = True
+1.0079 	EXP 	dot3: autoDraw = True
+1.0079 	EXP 	dot4: autoDraw = True
+4.5312 	EXP 	Device response: <KeyPress from None: t=4.415698874043301, value=space, duration=None>
+4.5313 	EXP 	Device response: <KeyPress from None: t=4.415698874043301, value=space, duration=0.09593158395728096>
+4.5343 	DATA 	Keypress: space
+4.5370 	WARNING 	t of last frame was 112.39ms (=1/8)
+4.5370 	EXP 	mem_fix: autoDraw = False
+4.5370 	EXP 	memCircle: autoDraw = False
+4.5370 	EXP 	test_circle: autoDraw = False
+4.5370 	EXP 	dot0: autoDraw = False
+4.5370 	EXP 	dot1: autoDraw = False
+4.5370 	EXP 	dot2: autoDraw = False
+4.5370 	EXP 	dot3: autoDraw = False
+4.5370 	EXP 	dot4: autoDraw = False
+4.5370 	EXP 	delay_fix: autoDraw = True
+5.5424 	INFO 	Keyboard events cleared
+5.5423 	EXP 	delay_fix: autoDraw = False
+5.5423 	EXP 	delay_fix: autoDraw = False
+5.5423 	EXP 	report_fix: autoDraw = True
+5.5423 	EXP 	report_circle: autoDraw = True
+6.1604 	EXP 	Device response: <KeyPress from None: t=6.15170854103053, value=space, duration=None>
+6.1607 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+6.1710 	DATA 	Keypress: space
+6.1740 	EXP 	report_fix: autoDraw = False
+6.1740 	EXP 	report_circle: autoDraw = False
+6.1740 	EXP 	ITI_fix: autoDraw = True
+6.2784 	EXP 	Device response: <KeyPress from None: t=6.15170854103053, value=space, duration=0.11190458299824968>
+7.1706 	INFO 	Keyboard events cleared
+7.1705 	EXP 	ITI_fix: autoDraw = False
+7.1705 	EXP 	ITI_fix: autoDraw = False
+7.1705 	EXP 	dot0: fillColor = 'red'
+7.1705 	EXP 	dot0: borderColor = 'red'
+7.1705 	EXP 	dot1: fillColor = 'green'
+7.1705 	EXP 	dot1: borderColor = 'green'
+7.1705 	EXP 	dot2: fillColor = 'blue'
+7.1705 	EXP 	dot2: borderColor = 'blue'
+7.1705 	EXP 	dot3: fillColor = 'yellow'
+7.1705 	EXP 	dot3: borderColor = 'yellow'
+7.1705 	EXP 	dot4: fillColor = 'magenta'
+7.1705 	EXP 	dot4: borderColor = 'magenta'
+7.1705 	EXP 	mem_fix: autoDraw = True
+7.1705 	EXP 	memCircle: autoDraw = True
+7.1705 	EXP 	test_circle: autoDraw = True
+7.1705 	EXP 	dot0: autoDraw = True
+7.1705 	EXP 	dot1: autoDraw = True
+7.1705 	EXP 	dot2: autoDraw = True
+7.1705 	EXP 	dot3: autoDraw = True
+7.1705 	EXP 	dot4: autoDraw = True
+11.5318 	EXP 	Device response: <KeyPress from None: t=11.519652124028653, value=space, duration=None>
+11.5360 	DATA 	Keypress: space
+11.5390 	EXP 	mem_fix: autoDraw = False
+11.5390 	EXP 	memCircle: autoDraw = False
+11.5390 	EXP 	test_circle: autoDraw = False
+11.5390 	EXP 	dot0: autoDraw = False
+11.5390 	EXP 	dot1: autoDraw = False
+11.5390 	EXP 	dot2: autoDraw = False
+11.5390 	EXP 	dot3: autoDraw = False
+11.5390 	EXP 	dot4: autoDraw = False
+11.5390 	EXP 	delay_fix: autoDraw = True
+11.6355 	EXP 	Device response: <KeyPress from None: t=11.519652124028653, value=space, duration=0.11195966700324789>
+12.5482 	INFO 	Keyboard events cleared
+12.5481 	EXP 	delay_fix: autoDraw = False
+12.5481 	EXP 	report_fix: autoDraw = True
+12.5481 	EXP 	report_circle: autoDraw = True
+14.3536 	EXP 	Device response: <KeyPress from None: t=14.343607540999074, value=space, duration=None>
+14.3540 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+14.3578 	DATA 	Keypress: space
+14.3662 	EXP 	report_fix: autoDraw = False
+14.3662 	EXP 	report_circle: autoDraw = False
+14.3662 	EXP 	ITI_fix: autoDraw = True
+14.4693 	EXP 	Device response: <KeyPress from None: t=14.343607540999074, value=space, duration=0.11204291699687019>
+15.3635 	INFO 	Keyboard events cleared
+15.3634 	EXP 	ITI_fix: autoDraw = False
+15.3634 	EXP 	ITI_fix: autoDraw = False
+15.3634 	EXP 	dot0: fillColor = 'red'
+15.3634 	EXP 	dot0: borderColor = 'red'
+15.3634 	EXP 	dot1: fillColor = 'green'
+15.3634 	EXP 	dot1: borderColor = 'green'
+15.3634 	EXP 	dot2: fillColor = 'blue'
+15.3634 	EXP 	dot2: borderColor = 'blue'
+15.3634 	EXP 	dot3: fillColor = 'yellow'
+15.3634 	EXP 	dot3: borderColor = 'yellow'
+15.3634 	EXP 	dot4: fillColor = 'magenta'
+15.3634 	EXP 	dot4: borderColor = 'magenta'
+15.3634 	EXP 	mem_fix: autoDraw = True
+15.3634 	EXP 	memCircle: autoDraw = True
+15.3634 	EXP 	test_circle: autoDraw = True
+15.3634 	EXP 	dot0: autoDraw = True
+15.3634 	EXP 	dot1: autoDraw = True
+15.3634 	EXP 	dot2: autoDraw = True
+15.3634 	EXP 	dot3: autoDraw = True
+15.3634 	EXP 	dot4: autoDraw = True
+15.3837 	WARNING 	t of last frame was 20.32ms (=1/49)
+18.8545 	EXP 	Device response: <KeyPress from None: t=18.8476487910375, value=space, duration=None>
+18.8585 	DATA 	Keypress: space
+18.8614 	EXP 	mem_fix: autoDraw = False
+18.8614 	EXP 	memCircle: autoDraw = False
+18.8614 	EXP 	test_circle: autoDraw = False
+18.8614 	EXP 	dot0: autoDraw = False
+18.8614 	EXP 	dot1: autoDraw = False
+18.8614 	EXP 	dot2: autoDraw = False
+18.8614 	EXP 	dot3: autoDraw = False
+18.8614 	EXP 	dot4: autoDraw = False
+18.8614 	EXP 	delay_fix: autoDraw = True
+18.9727 	EXP 	Device response: <KeyPress from None: t=18.8476487910375, value=space, duration=0.11192524997750297>
+19.8609 	INFO 	Keyboard events cleared
+19.8608 	EXP 	delay_fix: autoDraw = False
+19.8608 	EXP 	report_fix: autoDraw = True
+19.8608 	EXP 	report_circle: autoDraw = True
+21.5591 	EXP 	Device response: <KeyPress from None: t=21.55162612401182, value=space, duration=None>
+21.5595 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+21.5739 	EXP 	report_fix: autoDraw = False
+21.5739 	EXP 	report_circle: autoDraw = False
+21.5739 	EXP 	ITI_fix: autoDraw = True
+21.5776 	DATA 	Keypress: space
+21.6562 	EXP 	Device response: <KeyPress from None: t=21.55162612401182, value=space, duration=0.09602704201824963>
+22.5695 	INFO 	Keyboard events cleared
+22.5693 	EXP 	ITI_fix: autoDraw = False
+22.5693 	EXP 	ITI_fix: autoDraw = False
+22.5693 	EXP 	dot0: fillColor = 'red'
+22.5693 	EXP 	dot0: borderColor = 'red'
+22.5693 	EXP 	dot1: fillColor = 'green'
+22.5693 	EXP 	dot1: borderColor = 'green'
+22.5693 	EXP 	dot2: fillColor = 'blue'
+22.5693 	EXP 	dot2: borderColor = 'blue'
+22.5693 	EXP 	dot3: fillColor = 'yellow'
+22.5693 	EXP 	dot3: borderColor = 'yellow'
+22.5693 	EXP 	dot4: fillColor = 'magenta'
+22.5693 	EXP 	dot4: borderColor = 'magenta'
+22.5693 	EXP 	mem_fix: autoDraw = True
+22.5693 	EXP 	memCircle: autoDraw = True
+22.5693 	EXP 	test_circle: autoDraw = True
+22.5693 	EXP 	dot0: autoDraw = True
+22.5693 	EXP 	dot1: autoDraw = True
+22.5693 	EXP 	dot2: autoDraw = True
+22.5693 	EXP 	dot3: autoDraw = True
+22.5693 	EXP 	dot4: autoDraw = True
+22.5897 	WARNING 	t of last frame was 20.32ms (=1/49)
+22.6099 	WARNING 	t of last frame was 20.28ms (=1/49)
+26.7461 	EXP 	Device response: <KeyPress from None: t=26.735615623998456, value=space, duration=None>
+26.7490 	DATA 	Keypress: space
+26.7596 	EXP 	mem_fix: autoDraw = False
+26.7596 	EXP 	memCircle: autoDraw = False
+26.7596 	EXP 	test_circle: autoDraw = False
+26.7596 	EXP 	dot0: autoDraw = False
+26.7596 	EXP 	dot1: autoDraw = False
+26.7596 	EXP 	dot2: autoDraw = False
+26.7596 	EXP 	dot3: autoDraw = False
+26.7596 	EXP 	dot4: autoDraw = False
+26.7596 	EXP 	delay_fix: autoDraw = True
+26.8442 	EXP 	Device response: <KeyPress from None: t=26.735615623998456, value=space, duration=0.10404166701482609>
+27.7606 	INFO 	Keyboard events cleared
+27.7604 	EXP 	delay_fix: autoDraw = False
+27.7604 	EXP 	delay_fix: autoDraw = False
+27.7604 	EXP 	report_fix: autoDraw = True
+27.7604 	EXP 	report_circle: autoDraw = True
+28.4661 	EXP 	Device response: <KeyPress from None: t=28.455618749023415, value=space, duration=None>
+28.4665 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+28.4704 	DATA 	Keypress: space
+28.4777 	EXP 	report_fix: autoDraw = False
+28.4777 	EXP 	report_circle: autoDraw = False
+28.4777 	EXP 	ITI_fix: autoDraw = True
+28.5856 	EXP 	Device response: <KeyPress from None: t=28.455618749023415, value=space, duration=0.1279833340086043>
+29.4742 	INFO 	Keyboard events cleared
+29.4741 	EXP 	ITI_fix: autoDraw = False
+29.4741 	EXP 	ITI_fix: autoDraw = False
+29.4741 	EXP 	dot0: fillColor = 'red'
+29.4741 	EXP 	dot0: borderColor = 'red'
+29.4741 	EXP 	dot1: fillColor = 'green'
+29.4741 	EXP 	dot1: borderColor = 'green'
+29.4741 	EXP 	dot2: fillColor = 'blue'
+29.4741 	EXP 	dot2: borderColor = 'blue'
+29.4741 	EXP 	dot3: fillColor = 'yellow'
+29.4741 	EXP 	dot3: borderColor = 'yellow'
+29.4741 	EXP 	dot4: fillColor = 'magenta'
+29.4741 	EXP 	dot4: borderColor = 'magenta'
+29.4741 	EXP 	mem_fix: autoDraw = True
+29.4741 	EXP 	memCircle: autoDraw = True
+29.4741 	EXP 	test_circle: autoDraw = True
+29.4741 	EXP 	dot0: autoDraw = True
+29.4741 	EXP 	dot1: autoDraw = True
+29.4741 	EXP 	dot2: autoDraw = True
+29.4741 	EXP 	dot3: autoDraw = True
+29.4741 	EXP 	dot4: autoDraw = True
+37.0027 	EXP 	Device response: <KeyPress from None: t=36.99949491600273, value=space, duration=None>
+37.0060 	EXP 	mem_fix: autoDraw = False
+37.0060 	EXP 	memCircle: autoDraw = False
+37.0060 	EXP 	test_circle: autoDraw = False
+37.0060 	EXP 	dot0: autoDraw = False
+37.0060 	EXP 	dot1: autoDraw = False
+37.0060 	EXP 	dot2: autoDraw = False
+37.0060 	EXP 	dot3: autoDraw = False
+37.0060 	EXP 	dot4: autoDraw = False
+37.0060 	EXP 	delay_fix: autoDraw = True
+37.0092 	DATA 	Keypress: space
+37.0318 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+37.0694 	EXP 	Device response: <KeyPress from None: t=36.99949491600273, value=space, duration=0.05604220804525539>
+38.0023 	INFO 	Keyboard events cleared
+38.0022 	EXP 	delay_fix: autoDraw = False
+38.0022 	EXP 	delay_fix: autoDraw = False
+38.0022 	EXP 	report_fix: autoDraw = True
+38.0022 	EXP 	report_circle: autoDraw = True
+38.6744 	EXP 	Device response: <KeyPress from None: t=38.6635899580433, value=space, duration=None>
+38.6776 	DATA 	Keypress: space
+38.6862 	EXP 	report_fix: autoDraw = False
+38.6862 	EXP 	report_circle: autoDraw = False
+38.6863 	EXP 	WMpsilocybin_v1: status = STOPPED
+38.6941 	INFO 	saved data to '/Users/calebjerinic-brodeur/Dropbox (ASU)/My Mac (Calebs-MacBook-Pro.local)/Documents/GitHub/WM_Psilocybin/data/964664_WMpsilocybin_v1_2026-01-12_15h31.43.531.csv'
+38.6955 	INFO 	saved data to /Users/calebjerinic-brodeur/Dropbox (ASU)/My Mac (Calebs-MacBook-Pro.local)/Documents/GitHub/WM_Psilocybin/data/964664_WMpsilocybin_v1_2026-01-12_15h31.43.531.psydat
+38.8011 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
