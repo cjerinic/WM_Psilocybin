@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Wed Jan 14 16:54:19 2026
+    on Fri Jan 23 11:24:04 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -131,7 +131,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/calebjerinic-brodeur/Dropbox (ASU)/My Mac (Calebs-MacBook-Pro.local)/Documents/GitHub/WM_Psilocybin/WMpsilocybin_v3_lastrun.py',
+        originPath='/Users/cnj678/Documents/GitHub/WM_Psilocybin/WMpsilocybin_v3_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -421,7 +421,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "WELCOME_screen" ---
     welcome_text = visual.TextStim(win=win, name='welcome_text',
-        text='Welcome to the experiment!\n\nIn this portion of the experiment we will ask you to remember the location of 5 colored dots over a breif period, and then report the position of each dot on the screen.\n\nThe following slides will go through more detailed instructions…\n\n<press SPACE to continue>',
+        text='Welcome to the experiment!\n\nIn this portion of the experiment we will ask you to remember the location of 5 colored dots over a brief period, and then report the position of each dot on the screen.\n\nThe following slides will go through more detailed instructions…\n\n<press SPACE to continue>',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -481,7 +481,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "delayPeriod_instructScreen" ---
     delayPeriod_instructText = visual.TextStim(win=win, name='delayPeriod_instructText',
-        text='After you are briefly shown the memory array, there will be brief 1 second delay. During this delay, we want you to remember the spatail positions of the 5 colored circles you just saw.\n\nThe delay period screen will look like this:',
+        text='After you are briefly shown the memory array, there will be a brief 1 second delay. During this delay, we want you to remember the spatial positions of the 5 colored circles you just saw.\n\nThe delay period screen will look like this:',
         font='Arial',
         pos=(0, 0.2), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -531,7 +531,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Practice_startScreen" ---
     practiceStart_text = visual.TextStim(win=win, name='practiceStart_text',
-        text='We will start with a few practice trials so you understand the structure of the experiment and how to make response.\n\n<press SPACE to continue>',
+        text='We will start with a few practice trials so you understand the structure of the experiment and how to make responses.\n\n<press SPACE to continue>',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -645,7 +645,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Practice_doneScreen" ---
     practiceDone_text = visual.TextStim(win=win, name='practiceDone_text',
-        text='All done with the practice trials!\n\nIf you have an questions, please ask the experimenter now…\n\n<press SPACE when you are ready to continue>',
+        text='All done with the practice trials!\n\nIf you have any questions, please ask the experimenter now…\n\n<press SPACE when you are ready to continue>',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
