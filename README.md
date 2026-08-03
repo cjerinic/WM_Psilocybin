@@ -1,6 +1,12 @@
 # WM_Psilocybin
 Spatial WM task for Psilocybin study w/ Manoj Doss
 
+Tasks:
+1. PRACTICE_WMpsilocybin_v1.psyexp - 10 trial practice task to use during orientation day for new subjects.
+2. WMpsilocybin_v6.psyexp - main task that should be run for each session. Inlcudes a few practice trials to re-familiarize subjects, then moves into main-task trials.
+
+BE SURE TO USE THE SAME SUBJECT ID FOR ALL TASKS
+
 Important notes:
 In the PsychoPy builder, there is a routine called "init" which includes the initilization code to create a subject-specific design matrix at the start of the experiment and save it out as a csv.
 

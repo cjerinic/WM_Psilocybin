@@ -1,0 +1,17 @@
+19.8123 	INFO 	Loaded monitor calibration from ['2022_08_19 16:03']
+20.4184 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [2240, 1260]. Using actual size
+20.7610 	INFO 	Using renderer 'Apple M1' for graphics
+20.7610 	INFO 	OpenGL version supported by driver is 2..
+20.9065 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x16c5e2890>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x16c5e28f0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x16be7e410>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([4480, 2520]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.9065 	EXP 	window1: backgroundImage = ''
+20.9066 	EXP 	window1: backgroundFit = 'none'
+21.2992 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+21.2993 	EXP 	window1: recordFrameIntervals = False
+21.6192 	EXP 	window1: recordFrameIntervals = True
+23.2863 	EXP 	window1: recordFrameIntervals = False
+23.2866 	EXP 	Screen (0) actual frame rate measured at 59.80Hz
+30.2926 	INFO 	keyboard.Keyboard is using ptb backend.
+30.2926 	EXP 	PRACTICE_WMpsilocybin_v1: status = STARTED
+30.3204 	INFO 	saved data to /Users/cnj678/Documents/GitHub/WM_Psilocybin/data/sub-test/PRACTICE/sub-test_PRACTICE_WMpsilocybin_v1_2026-08-03_11h09.43.604.psydat
+30.3212 	INFO 	saved data to '/Users/cnj678/Documents/GitHub/WM_Psilocybin/data/sub-test/PRACTICE/sub-test_PRACTICE_WMpsilocybin_v1_2026-08-03_11h09.43.604.csv'
+30.3268 	INFO 	Stopping keyboard key buffers.
